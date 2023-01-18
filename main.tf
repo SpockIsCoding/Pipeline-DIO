@@ -6,7 +6,7 @@ terraform {
   }
 
    backend "gcs" {
-    bucket  = "SpockBucket"
+    bucket  = "spockbucket"
     prefix  = "terraform/state"
   }
   
