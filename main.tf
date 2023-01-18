@@ -23,7 +23,7 @@ resource "google_compute_network" "vpc_network" {
 }
 
 resource "google_compute_instance" "vm_instance" {
-  name         = "CloudBuildTerraform"
+  name         = "cloud_build_terraform"
   machine_type = "f1-micro"
   tags = ["prod"]
 
